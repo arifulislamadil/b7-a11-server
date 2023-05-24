@@ -1,0 +1,159 @@
+[
+    {
+      "id":1,
+      "picture": "https://m.media-amazon.com/images/I/71WliN7VJOL._AC_SX450_.jpg",
+      "title": "Build & Play Engineering Set",
+      "price": 39.99,
+      "product_description": "Unleash creativity and problem-solving skills with this versatile building set.",
+      "available_store_items": 20,
+      "brand": "Creative Kids",
+      "weight": "2 lbs",
+      "material": "Plastic",
+      "discount": "50%"
+    },
+    {
+      "id":2,
+      "picture": "https://m.media-amazon.com/images/I/71CsuLgDnfL._AC_SX569_.jpg",
+      "title": "Reading Adventure Storybook",
+      "price": 19.99,
+      "product_description": "Embark on exciting reading adventures with captivating stories and interactive features.",
+      "available_store_items": 50,
+      "brand": "Storytime Explorers",
+      "weight": "1 lb",
+      "material": "Paper"
+      ,
+      "discount": "33%"
+    },
+    
+    {
+      "id":3,
+      "picture": "https://m.media-amazon.com/images/I/71rFJLBHicL._AC_SY450_.jpg",
+      "title": "Math Whiz Electronic Game",
+      "price": 24.99,
+      "product_description": "Enhance math skills through engaging games and challenges with this handheld device.",
+      "available_store_items": 30,
+      "brand": "Number Masters",
+      "weight": "0.5 lb",
+      "material": "Plastic"
+      ,
+      "discount": "20%"
+    },
+    {
+      "id":4,
+      "picture": "https://m.media-amazon.com/images/I/71bqb5N-dtL._AC_SX450_.jpg",
+      "title": "World Geography Puzzle",
+      "price": 29.99,
+      "product_description": "Explore the world with this educational puzzle that teaches geography and landmarks.",
+      "available_store_items": 15,
+      "brand": "GeoExplorers",
+      "weight": "1.5 lbs",
+      "material": "Cardboard"
+      ,
+      "discount": "10%"
+    },
+    {
+      "id":5,
+      "picture": "https://m.media-amazon.com/images/I/71CsuLgDnfL._AC_SX569_.jpg",
+      "title": "Reading Adventure Storybook",
+      "price": 19.99,
+      "product_description": "Embark on exciting reading adventures with captivating stories and interactive features.",
+      "available_store_items": 50,
+      "brand": "Storytime Explorers",
+      "weight": "1 lb",
+      "material": "Paper"
+      ,
+      "discount": "33%"
+    },
+    
+    {
+      "id":6,
+      "picture": "https://m.media-amazon.com/images/I/71rFJLBHicL._AC_SY450_.jpg",
+      "title": "Math Whiz Electronic Game",
+      "price": 24.99,
+      "product_description": "Enhance math skills through engaging games and challenges with this handheld device.",
+      "available_store_items": 30,
+      "brand": "Number Masters",
+      "weight": "0.5 lb",
+      "material": "Plastic"
+      ,
+      "discount": "20%"
+    },
+    {
+      "id":7,
+      "picture": "https://m.media-amazon.com/images/I/71rFJLBHicL._AC_SY450_.jpg",
+      "title": "Music Exploration Set",
+      "price": 34.99,
+      "product_description": "Nurture musical talents with this set including various instruments and a guidebook.",
+      "available_store_items": 25,
+      "brand": "MelodyMakers",
+      "weight": "2.5 lbs",
+      "material": "Wood, Plastic"
+      ,
+      "discount": "33%"
+    },
+    {
+      "id":8,
+      "picture": "https://m.media-amazon.com/images/I/71-OiXuO5WL._AC_SY450_.jpg",
+      "title": "Artistic Masterpiece Kit",
+      "price": 29.99,
+      "product_description": "Encourage artistic expression with a kit that includes paints, brushes, and canvas.",
+      "available_store_items": 40,
+      "brand": "Artistic Minds",
+      "weight": "1.5 lbs",
+      "material": "Various"
+      ,
+      "discount": "35%"
+    },
+    {
+      "id":9,
+      "picture": "https://m.media-amazon.com/images/I/71O9lHr7xIL._AC_SY450_.jpg",
+      "title": "Solar System Model",
+      "price": 22.99,
+      "product_description": "Explore the wonders of space with a detailed model of the solar system and a learning guide.",
+      "available_store_items": 20,
+      "brand": "AstroKids",
+      "weight": "1 lb",
+      "material": "Various"
+      ,
+      "discount": "63%"
+    },
+    {
+      "id":10,
+      "picture": "https://m.media-amazon.com/images/I/71bqb5N-dtL._AC_SX450_.jpg",
+      "title": "Music Exploration Set",
+      "price": 34.99,
+      "product_description": "Nurture musical talents with this set including various instruments and a guidebook.",
+      "available_store_items": 25,
+      "brand": "MelodyMakers",
+      "weight": "2.5 lbs",
+      "material": "Wood, Plastic"
+      ,
+      "discount": "15%"
+    },
+    {
+      "id":11,
+      "picture": "https://m.media-amazon.com/images/I/71WliN7VJOL._AC_SX450_.jpg",
+      "title": "Music Exploration Set",
+      "price": 34.99,
+      "product_description": "Nurture musical talents with this set including various instruments and a guidebook.",
+      "available_store_items": 25,
+      "brand": "MelodyMakers",
+      "weight": "2.5 lbs",
+      "material": "Wood, Plastic"
+      ,
+      "discount": "33%"
+    },
+    {
+      "id":12,
+      "picture": "https://m.media-amazon.com/images/I/71rFJLBHicL._AC_SY450_.jpg",
+      "title": "Reading Adventure Storybook",
+      "price": 19.99,
+      "product_description": "Embark on exciting reading adventures with captivating stories and interactive features.",
+      "available_store_items": 50,
+      "brand": "Storytime Explorers",
+      "weight": "1 lb",
+      "material": "Paper"
+      ,
+      "discount": "30%"
+    }
+]  
