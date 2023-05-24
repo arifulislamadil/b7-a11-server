@@ -30,17 +30,25 @@ async function run() {
     await client.connect();
     const toysCollection = client.db('toys').collection('toysList');
 
+    //get all toys collection
    app.get("/products",async(req,res) => {
     const cursor = toysCollection.find();
     const result = await cursor.toArray();
     res.send(result);
    })
+   // get single toy from collection
    app.get("/product/:id",async(req,res) => {
     const id = req.params.id;
     const query = {_id: new ObjectId(id)}
     const result = await toysCollection.findOne(query);
     // const result = await cursor.toArray();
     res.send(result);
+   })
+
+   // post a toy in the database
+   app.post("/addToy", async(req,res)=>{
+    const newToy = req.body;
+    console.log(newToy);
    })
 
 
