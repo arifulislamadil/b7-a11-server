@@ -29,6 +29,7 @@ async function run() {
     // Connect the client to the server	(optional starting in v4.7)
     await client.connect();
     const toysCollection = client.db('toys').collection('toysList');
+    const toyCollection = client.db('toy').collection('toyList');
 
     //get all toys collection
    app.get("/products",async(req,res) => {
@@ -48,7 +49,15 @@ async function run() {
    // post a toy in the database
    app.post("/addToy", async(req,res)=>{
     const newToy = req.body;
-    console.log(newToy);
+    const result = await toyCollection.insertOne(newToy);
+    res.send(result);
+   })
+
+   // Get a single toy from the database
+   app.get("/addToy", async(req,res)=>{
+    const cursor = toyCollection.find();
+    const result = await cursor.toArray();
+    res.send(result);
    })
 
 
