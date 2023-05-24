@@ -1,7 +1,5 @@
 [
-    {
-      "id":1,
-      "picture": "https://m.media-amazon.com/images/I/71WliN7VJOL._AC_SX450_.jpg",
+    {      "picture": "https://m.media-amazon.com/images/I/71WliN7VJOL._AC_SX450_.jpg",
       "title": "Build & Play Engineering Set",
       "price": 39.99,
       "product_description": "Unleash creativity and problem-solving skills with this versatile building set.",
@@ -11,9 +9,7 @@
       "material": "Plastic",
       "discount": "50%"
     },
-    {
-      "id":2,
-      "picture": "https://m.media-amazon.com/images/I/71CsuLgDnfL._AC_SX569_.jpg",
+    {      "picture": "https://m.media-amazon.com/images/I/71CsuLgDnfL._AC_SX569_.jpg",
       "title": "Reading Adventure Storybook",
       "price": 19.99,
       "product_description": "Embark on exciting reading adventures with captivating stories and interactive features.",
@@ -25,9 +21,7 @@
       "discount": "33%"
     },
     
-    {
-      "id":3,
-      "picture": "https://m.media-amazon.com/images/I/71rFJLBHicL._AC_SY450_.jpg",
+    {      "picture": "https://m.media-amazon.com/images/I/71rFJLBHicL._AC_SY450_.jpg",
       "title": "Math Whiz Electronic Game",
       "price": 24.99,
       "product_description": "Enhance math skills through engaging games and challenges with this handheld device.",
@@ -38,9 +32,7 @@
       ,
       "discount": "20%"
     },
-    {
-      "id":4,
-      "picture": "https://m.media-amazon.com/images/I/71bqb5N-dtL._AC_SX450_.jpg",
+    {      "picture": "https://m.media-amazon.com/images/I/71bqb5N-dtL._AC_SX450_.jpg",
       "title": "World Geography Puzzle",
       "price": 29.99,
       "product_description": "Explore the world with this educational puzzle that teaches geography and landmarks.",
@@ -51,9 +43,7 @@
       ,
       "discount": "10%"
     },
-    {
-      "id":5,
-      "picture": "https://m.media-amazon.com/images/I/71CsuLgDnfL._AC_SX569_.jpg",
+    {      "picture": "https://m.media-amazon.com/images/I/71CsuLgDnfL._AC_SX569_.jpg",
       "title": "Reading Adventure Storybook",
       "price": 19.99,
       "product_description": "Embark on exciting reading adventures with captivating stories and interactive features.",
@@ -65,9 +55,7 @@
       "discount": "33%"
     },
     
-    {
-      "id":6,
-      "picture": "https://m.media-amazon.com/images/I/71rFJLBHicL._AC_SY450_.jpg",
+    {      "picture": "https://m.media-amazon.com/images/I/71rFJLBHicL._AC_SY450_.jpg",
       "title": "Math Whiz Electronic Game",
       "price": 24.99,
       "product_description": "Enhance math skills through engaging games and challenges with this handheld device.",
@@ -78,9 +66,7 @@
       ,
       "discount": "20%"
     },
-    {
-      "id":7,
-      "picture": "https://m.media-amazon.com/images/I/71rFJLBHicL._AC_SY450_.jpg",
+    {      "picture": "https://m.media-amazon.com/images/I/71rFJLBHicL._AC_SY450_.jpg",
       "title": "Music Exploration Set",
       "price": 34.99,
       "product_description": "Nurture musical talents with this set including various instruments and a guidebook.",
@@ -91,9 +77,7 @@
       ,
       "discount": "33%"
     },
-    {
-      "id":8,
-      "picture": "https://m.media-amazon.com/images/I/71-OiXuO5WL._AC_SY450_.jpg",
+    {      "picture": "https://m.media-amazon.com/images/I/71-OiXuO5WL._AC_SY450_.jpg",
       "title": "Artistic Masterpiece Kit",
       "price": 29.99,
       "product_description": "Encourage artistic expression with a kit that includes paints, brushes, and canvas.",
@@ -104,9 +88,7 @@
       ,
       "discount": "35%"
     },
-    {
-      "id":9,
-      "picture": "https://m.media-amazon.com/images/I/71O9lHr7xIL._AC_SY450_.jpg",
+    {      "picture": "https://m.media-amazon.com/images/I/71O9lHr7xIL._AC_SY450_.jpg",
       "title": "Solar System Model",
       "price": 22.99,
       "product_description": "Explore the wonders of space with a detailed model of the solar system and a learning guide.",
@@ -118,7 +100,6 @@
       "discount": "63%"
     },
     {
-      "id":10,
       "picture": "https://m.media-amazon.com/images/I/71bqb5N-dtL._AC_SX450_.jpg",
       "title": "Music Exploration Set",
       "price": 34.99,
@@ -131,7 +112,6 @@
       "discount": "15%"
     },
     {
-      "id":11,
       "picture": "https://m.media-amazon.com/images/I/71WliN7VJOL._AC_SX450_.jpg",
       "title": "Music Exploration Set",
       "price": 34.99,
@@ -144,7 +124,6 @@
       "discount": "33%"
     },
     {
-      "id":12,
       "picture": "https://m.media-amazon.com/images/I/71rFJLBHicL._AC_SY450_.jpg",
       "title": "Reading Adventure Storybook",
       "price": 19.99,
