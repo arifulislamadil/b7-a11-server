@@ -81,8 +81,46 @@ app.get("/toyDetails/:id", async (req, res) => {
   res.send(result);
 });
 
+// delete single toy from collection
 
+app.delete("/addToy/:id", async (req, res) => {
+  const id = req.params.id;
+  const query = {_id: new ObjectId(id) }
+  const result = await toyCollection.deleteOne(query);
+  res.send(result)
+})
 
+// update get single toy from collection
+app.get("/addToy/:id", async (req, res) => {
+  const id = req.params.id;
+  const query = {_id: new ObjectId(id) }
+  const result = await toyCollection.findOne(query);
+  res.send(result)
+})
+
+// update single toy from collection
+app.put("/addToy/:id", async (req,res)=>{
+  const id = req.params.id;
+  const filter = {_id: new ObjectId(id) }
+ const options = {upsert:true}
+ const updatedToy = req.body;
+ const toy = {
+$set:{
+  name: updatedToy.name,
+  pictureUrl: updatedToy.pictureUrl,
+  toyName: updatedToy.toyName,
+  sellerName: updatedToy.sellerName,
+  subCategory: updatedToy.subCategory,
+  quantity: updatedToy.quantity,
+  price: updatedToy.price,
+  sellerEmail: updatedToy.sellerEmail,
+  rating: updatedToy.rating,
+  description: updatedToy.description
+}
+ }
+ const result = await toyCollection.updateOne(filter, toy, options);
+ res.send(result)
+})
 
 
 
