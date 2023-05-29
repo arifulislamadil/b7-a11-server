@@ -55,7 +55,6 @@ async function run() {
 
     // get single toy by using query search from the database
     app.get("/addToy", async (req, res) => {
-      console.log(req.query);
       let query = {};
       if (req.query?.sellerEmail) {
         query = { sellerEmail: req.query.sellerEmail};
@@ -123,6 +122,19 @@ $set:{
 })
 
 
+
+
+
+ // get toys by using query search by sub category from the database
+ app.get("/toyQuery", async (req, res) => {
+  console.log(req.query);
+  let query = {};
+  if (req.query?.subCategory) {
+    query = { subCategory: req.query.subCategory};
+  }
+  const result = await toyCollection.find(query).toArray();
+  res.send(result);
+});
 
 
     // Send a ping to confirm a successful connection
