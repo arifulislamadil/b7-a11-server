@@ -122,9 +122,6 @@ $set:{
 })
 
 
-
-
-
  // get toys by using query search by sub category from the database
  app.get("/toyQuery", async (req, res) => {
   console.log(req.query);
